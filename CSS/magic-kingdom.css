@@ -1,0 +1,19 @@
+body{
+    font-family:Helvetica, sans-serif
+}
+
+.title{
+   font-family: Verdana; 
+
+   border-radius: 20%;
+}
+
+header{
+    text-align: center;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    
+}

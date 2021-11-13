@@ -26,7 +26,7 @@ img{
 .pics{
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;    
+    width: 70%;    
     border: 5px solid white;
     border-radius: 10%;
     display: block;
@@ -36,11 +36,22 @@ img{
     float: left;
     width: 33.33%;
     padding: 5px;
+    margin-left: 10%;
+    margin-bottom: 5%;
   }
   
   
+
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+
+  
+  #footer {
+      position: relative;
+      bottom: 0;
+      
+  }
+
