@@ -1,20 +1,54 @@
+
+
 body{
-    font-family:Helvetica, sans-serif
+    font-family: Verdana;
+    
 }
 
 .title{
    font-family: Verdana; 
 
-   border-radius: 20%;
 }
+
+/* copied */
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 10%;
+    
+
+
+
+  }
+  .nav .name {
+    display: none;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: pink;
+  }
+/* copied */
 
 header{
     text-align: center;
+    padding-top: 20px;
 }
 
 .intro{
     text-align: center;
 }
+
+/* photo stuff */
 
 img{
     max-width: 100%;
@@ -27,9 +61,9 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 70%;    
-    border: 5px solid white;
-    border-radius: 10%;
+        
     display: block;
+    
 }    
 
 .column {
@@ -38,6 +72,7 @@ img{
     padding: 5px;
     margin-left: 10%;
     margin-bottom: 5%;
+    margin-top: 5%;
   }
   
   
@@ -48,6 +83,11 @@ img{
     display: table;
   }
 
+  figcaption{
+      text-align: center;
+
+  }
+
   
   #footer {
       position: relative;
@@ -55,12 +95,25 @@ img{
       
   }
 
+  .image{
+      border-radius: 20%;
+      border-color: white;
+      transition: all .5s;
+      
+  }
+  .image:hover{
+      transform: scale(1.2) rotate(5deg);
+      border-radius: 20%;
+      border-color: white;
+  }
+
+
   /* mk stuff*/
 
     #mk-intro {
 
         text-align: center;
-        
+
     }
 
   
