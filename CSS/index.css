@@ -2,6 +2,7 @@
 
 body{
     font-family: Verdana;
+    margin: 0;
     
 }
 
@@ -18,24 +19,22 @@ body{
     font-weight: 700;
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
-    border-radius: 10%;
+    padding: 10px;
     
+    background-color: grey;
+    text-align: left;
 
 
 
   }
-  .nav .name {
-    display: none;
-  }
-  .nav li {
-    padding: 5px 10px 10px 10px;
-  }
+  
+  
   .nav a {
     transition: all .5s;
+    
   }
   .nav a:hover {
-    color: pink;
+    color: white;
   }
 /* copied */
 
