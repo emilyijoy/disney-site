@@ -1,13 +1,13 @@
 
 
 body{
-    font-family: Verdana;
+  font-family: 'Work Sans', sans-serif;
     margin: 0;
     
 }
 
 .title{
-   font-family: Verdana; 
+  font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -26,9 +26,8 @@ body{
     background-color: #ffcccc;
     text-align: left;
     color: whitesmoke;
-    font-family: cursive;
-    text-shadow: black;
-
+    font-family: 'Work Sans', sans-serif;
+    
   }
   
   
@@ -39,17 +38,23 @@ body{
   .nav a:hover {
     color: white;
   }
-
+.nav-text {
+  text-shadow: -1px -1px 2px black;
+  font-family: 'Work Sans', sans-serif;
+}
   
 /* copied */
 
 header{
     text-align: center;
     padding-top: 45px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
 }
 
 .intro{
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* photo stuff */
