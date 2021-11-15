@@ -14,17 +14,20 @@ body{
 /* copied */
 
   .nav {
-    display: flex;
+    position: fixed;
+    width: 100%;
+    display: block;
     justify-content: space-around;
     font-weight: 700;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 10px;
     
-    background-color: grey;
+    margin: 0 auto;
+    padding: 0.5%;
+    
+    background-color: #ffcccc;
     text-align: left;
-
-
+    color: whitesmoke;
+    font-family: cursive;
+    text-shadow: black;
 
   }
   
@@ -36,11 +39,13 @@ body{
   .nav a:hover {
     color: white;
   }
+
+  
 /* copied */
 
 header{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
 .intro{
@@ -115,4 +120,12 @@ img{
 
     }
 
+    .big-three {
+      
+      font-size: 30px;
+      
+    }
   
+    .big-three p {
+      font-size: 15px;
+    }
