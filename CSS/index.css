@@ -3,14 +3,21 @@
 body{
   font-family: 'Work Sans', sans-serif;
     margin: 0;
-    
+    color: #454959;
+ 
 }
+    
+
 
 .title{
   font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  
 
 }
-
+ h3 {
+   font-size: 30px;
+ }
 /* copied */
 
   .nav {
@@ -33,6 +40,7 @@ body{
   
   .nav a {
     transition: all .5s;
+    text-decoration: none;
     
   }
   .nav a:hover {
@@ -98,11 +106,7 @@ img{
   }
 
   
-  #footer {
-      position: relative;
-      bottom: 0;
-      
-  }
+ 
 
   .image{
       border-radius: 20%;
@@ -116,8 +120,16 @@ img{
       border-color: white;
   }
 
+  #footer {
+    position: relative;
+    bottom: 0;
+    
+}
+/* media stuff */
 
-  /* mk stuff*/
+/* media stuff */
+
+/* mk stuff*/
 
     #mk-intro {
 
@@ -134,3 +146,29 @@ img{
     .big-three p {
       font-size: 15px;
     }
+/* mk stuff*/
+
+/* copntact stuff*/
+#contact-methods a {
+
+  text-align: center;
+  display: block;
+  
+  background-color: grey;
+
+  width: 250px;
+  padding: 20px;
+  border-radius: 20px/10px;
+  margin: 1rem auto;
+  
+  color: white;
+  
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+
+
+/* contact stuff*/
+    
