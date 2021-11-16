@@ -149,6 +149,15 @@ img{
 /* mk stuff*/
 
 /* copntact stuff*/
+
+#contact-methods::before {
+  content:"\21CA";
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
 #contact-methods a {
 
   text-align: center;
