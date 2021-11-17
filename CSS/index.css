@@ -1,4 +1,6 @@
-
+a {
+  text-decoration: none;
+}
 
 body{
   font-family: 'Work Sans', sans-serif;
@@ -150,7 +152,17 @@ img{
 
 /* copntact stuff*/
 
-#contact-methods::before {
+#social-media {
+  background-color: white !important;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.contact-methods::before {
   content:"\21CA";
   display: block;
   color: black;
@@ -158,7 +170,7 @@ img{
   font-size: 30px;
 }
 
-#contact-methods a {
+.contact-methods a {
 
   text-align: center;
   display: block;
@@ -178,7 +190,7 @@ img{
   
 }
 
-#contact-methods a:hover {
+.contact-methods a:hover {
   box-shadow: inset 0 0 10px 5px whitesmoke;
 }
 
