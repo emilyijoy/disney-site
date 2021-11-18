@@ -195,5 +195,20 @@ img{
 }
 
 
-/* contact stuff*/
-    
+/* contact stuff end*/
+ /* about stuff*/
+
+ #about-header img {
+ 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+ }
+
+ #about-header img:hover {
+  transform: scale(1.2) rotate(5deg);
+ }
+
+  /* about stuff end */   
