@@ -142,11 +142,29 @@ img{
     .big-three {
       
       font-size: 30px;
+      font-weight: bold;
       
     }
   
     .big-three p {
       font-size: 15px;
+      font-weight: lighter;
+      
+    }
+
+    .list {
+      margin-left: 4px;
+
+      /* box stuff*/
+      display: block;
+   text-align: center;
+   width: 50%;
+   border: 15px solid white;
+   border-radius: 7%;
+   padding: 1%;
+   margin: auto;
+   background-image: radial-gradient(white, #ffcccc);
+ } 
     }
 /* mk stuff*/
 
