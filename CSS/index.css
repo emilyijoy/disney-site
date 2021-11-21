@@ -165,7 +165,7 @@ img{
    margin: auto;
    background-image: radial-gradient(white, #ffcccc);
  } 
-    }
+    
 /* mk stuff*/
 
 /* copntact stuff*/
@@ -199,9 +199,7 @@ img{
   padding: 20px;
   border-radius: 20px/10px;
   margin: 1rem auto;
-  
   color: white;
-  
   font-size: 30px;
   text-decoration: none;
 
