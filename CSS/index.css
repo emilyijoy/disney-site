@@ -30,12 +30,14 @@ body{
     font-weight: 700;
     
     margin: 0 auto;
-    padding: 0.5%;
+    padding: 1.2%;
     
     background-color: #ffcccc;
     text-align: left;
-    color: whitesmoke;
+    color: white;
     font-family: 'Work Sans', sans-serif;
+    font-size: larger;
+    
     
   }
   
@@ -57,7 +59,7 @@ body{
 
 header{
     text-align: center;
-    padding-top: 45px;
+    padding-top: 4%;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
 }
