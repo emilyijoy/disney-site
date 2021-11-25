@@ -172,6 +172,10 @@ img{
 
 /* copntact stuff*/
 
+.contact h2 {
+  text-align: center;
+}
+
 #social-media {
   background-color: white !important;
   display: block;
