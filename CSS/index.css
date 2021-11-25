@@ -30,7 +30,7 @@ body{
     font-weight: 700;
     
     margin: 0 auto;
-    padding: 1.2%;
+    padding: 0.2%;
     
     background-color: #ffcccc;
     text-align: left;
@@ -53,18 +53,19 @@ body{
 .nav-text {
   text-shadow: -1px -1px 5px  black;
   font-family: 'Work Sans', sans-serif;
+  text-align: right;
 }
 
 .nav img {
-  width: 3%;
-  text-shadow: -1px -1px 5px  black;
+  width: 3.5%;
+  
 }
   
 /* copied */
 
 header{
     text-align: center;
-    padding-top: 4%;
+    padding-top: 5%;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
 }
@@ -111,6 +112,7 @@ img{
 
   figcaption{
       text-align: center;
+      font-style: bold;
 
   }
 
