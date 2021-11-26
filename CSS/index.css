@@ -112,7 +112,7 @@ img{
 
   figcaption{
       text-align: center;
-      font-style: bold;
+      font-size: 22px;
 
   }
 
@@ -253,3 +253,37 @@ img{
  } 
 
   /* about stuff end */   
+
+  /* media*/
+  @media (max-width: 500px) {
+    .nav {
+      padding: 2.5%;
+    }
+    .nav img {
+      width: 7%;
+    }
+
+    .title {
+      font-size: 30px;
+      padding-top: 10%;
+    }
+    header h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .big-three {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+    
+    figcaption {
+      font-size: 15px;
+    }
+  }
