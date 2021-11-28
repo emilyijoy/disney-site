@@ -156,7 +156,7 @@ img{
     }
   
     .big-three p {
-      font-size: 15px;
+      font-size: 13px;
       font-weight: lighter;
       
     }
@@ -167,7 +167,7 @@ img{
       /* box stuff*/
       display: block;
    text-align: center;
-   width: 50%;
+   width: 60%;
    border: 15px solid white;
    border-radius: 7%;
    padding: 1%;
@@ -246,7 +246,7 @@ img{
    text-align: center;
    width: 50%;
    border: 15px solid white;
-   border-radius: 7%;
+   border-radius: 8%;
    padding: 1%;
    margin: auto;
    background-image: radial-gradient(white, #ffcccc);
@@ -285,5 +285,10 @@ img{
     
     figcaption {
       font-size: 15px;
+    }
+
+    .list {
+      border-radius: 0%;
+      width: 75%
     }
   }
