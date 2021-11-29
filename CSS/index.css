@@ -8,6 +8,10 @@ body{
     color: #454959;
  
 }
+
+footer p {
+  margin-left: 8px;
+}
     
 
 
@@ -145,7 +149,12 @@ img{
     #park-intro {
 
         text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
+    #park-intro h3 {
+      font-size: 20px;
     }
 
     .big-three {
@@ -159,10 +168,12 @@ img{
       font-size: 13px;
       font-weight: lighter;
       
+      
     }
 
     .list {
       margin-left: 4px;
+      
 
       /* box stuff*/
       display: block;
@@ -174,6 +185,9 @@ img{
    margin: auto;
    background-image: radial-gradient(white, #ffcccc);
  } 
+ .the-rest {
+   text-align: left;
+ }
     
 /* mk stuff*/
 
@@ -290,5 +304,8 @@ img{
     .list {
       border-radius: 0%;
       width: 75%
+    }
+    #park-intro h3 {
+      font-size: 14px;
     }
   }
