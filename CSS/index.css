@@ -29,6 +29,22 @@ footer p {
    text-align: center;
    font-size: 15px;
  }
+ article {
+  display: block;
+  text-align: center;
+  width: 60%;
+  border: 15px solid white;
+  border-radius: 7%;
+  padding: 1%;
+  margin: auto;
+  background-image: radial-gradient(white, #ffcccc);
+ }
+ article a {
+   color: #454959;
+ }
+ article a:hover {
+   color: white;
+ }
 /* copied */
 
   .nav {
