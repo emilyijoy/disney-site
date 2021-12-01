@@ -28,6 +28,13 @@ footer p {
  .home-more {
    text-align: center;
    font-size: 15px;
+   font-family: 'Bebas Neue', cursive;
+ }
+ .home-more a{
+  color: #454959;
+ }
+ .home-more a:hover{
+   color: #ffcccc;
  }
  article {
   display: block;
