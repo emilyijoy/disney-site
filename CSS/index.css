@@ -24,7 +24,10 @@ footer p {
  h3 {
    font-size: 30px;
  }
-
+.home-more button {
+  size: 20px;
+  
+}
  .home-more {
    text-align: center;
    font-size: 15px;

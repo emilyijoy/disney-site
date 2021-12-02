@@ -1,4 +1,7 @@
-let numberGen = Math.floor(Math.random() * 4) + 1;
+
+function myFunction () {
+    let numberGen = Math.floor(Math.random() * 4) + 1;
+
 let park;
 const HTMLResult = document.querySelector(".result");
 
@@ -17,3 +20,6 @@ HTMLResult.innerHTML = `
 `;
 
 console.log(park)
+}
+
+
