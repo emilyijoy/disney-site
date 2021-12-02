@@ -28,7 +28,8 @@ footer p {
  .home-more {
    text-align: center;
    font-size: 15px;
-   font-family: 'Bebas Neue', cursive;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
  }
  .home-more a{
   color: #454959;
