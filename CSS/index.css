@@ -236,7 +236,10 @@ img{
  .the-rest {
    text-align: left;
  }
-    
+ 
+ p a:hover {
+   color: white;
+ }
 /* mk stuff*/
 
 /* copntact stuff*/
