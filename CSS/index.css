@@ -19,7 +19,26 @@ footer p {
   font-family: 'Bebas Neue', cursive;
   font-size: 50px;
   
+  
 
+}
+.daysOpen{
+float:left;
+margin-left: 8px;
+font-family: 'Work Sans', sans-serif;
+font-weight: bold;
+letter-spacing: normal;
+line-height: 2%;
+width: 14%;
+border: 15px solid white;
+border-radius: 29%;
+padding: 1%;
+
+background-image: radial-gradient(white, #ffcccc);
+
+}
+#mainDays {
+font-size: 20px;
 }
  h3 {
    font-size: 30px;

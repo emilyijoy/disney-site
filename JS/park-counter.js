@@ -3,6 +3,7 @@ console.log("Hello!")
 var titleDiv = document.getElementsByClassName("title") [0];
 var pageTitle = titleDiv.innerHTML;
 var dateOpen;
+const HTMLResult = document.querySelector(".daysOpen");
 
 
 if (pageTitle === "Magic Kingdom") {
@@ -19,5 +20,11 @@ if (pageTitle === "Magic Kingdom") {
 var dateNow = new Date();
 var dateDif = Math.abs (dateNow - dateOpen);
 var dayDif = Math.floor (dateDif / (1000 * 3600 * 24));
+
+HTMLResult.innerHTML = `
+<p>${pageTitle} has been open for</p>
+<p id="mainDays"> <strong>${dayDif}</strong> days!</p>
+`;
+
 
 console.log(dayDif);
