@@ -103,7 +103,7 @@ font-size: 20px;
     font-weight: 700;
     
     margin: 0 auto;
-    padding: 0.2%;
+    padding: 0.5%;
     
     background-color: #ffcccc;
     text-align: left;
@@ -342,16 +342,16 @@ img{
   /* about stuff end */   
 
   /* media*/
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
     .nav {
-      padding: 2.5%;
+      padding: 2.0%;
     }
     .nav img {
       width: 7%;
     }
 
     .title {
-      font-size: 30px;
+      font-size: 35px;
       padding-top: 10%;
     }
     header h2 {
@@ -380,5 +380,10 @@ img{
     }
     #park-intro h3 {
       font-size: 14px;
+    }
+    .daysOpen {
+      font-size: 13px;
+      width: 30%;
+      padding: 2%;
     }
   }
