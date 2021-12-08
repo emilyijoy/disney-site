@@ -47,10 +47,17 @@ font-size: 20px;
  }
 
  .home-more {
+   
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    text-align: center;
-   font-size: 15px;
+ }
+ .home-more h3{
+   
+   font-size: 20px;
    font-family: 'Work Sans', sans-serif;
-   font-weight: 300;
+   font-weight: 700;
  }
  .home-more button {
   background-color: #ffcccc; 
@@ -75,6 +82,11 @@ font-size: 20px;
  .home-more a:hover{
    color: #ffcccc;
  }
+
+ 
+
+
+ 
  article {
   display: block;
   text-align: center;
@@ -369,7 +381,7 @@ img{
     p {
       font-size: 13px;
     }
-    
+  
     figcaption {
       font-size: 15px;
     }
