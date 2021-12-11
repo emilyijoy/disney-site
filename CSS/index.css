@@ -372,7 +372,7 @@ img{
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 17px;
     }
 
     .big-three {
@@ -401,5 +401,14 @@ img{
     }
     .home-more h3, h2 {
       font-size: 15px;
+    }
+
+    h4 {
+      font-size: 13px;
+    }
+
+    section {
+      margin-left: 8px;
+      margin-right: 8px;
     }
   }

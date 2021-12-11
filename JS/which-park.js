@@ -26,7 +26,7 @@ if (numberGen === 1) {
 } else { park = "idk, try Universal"; tagline = "I'm sorry... what?"; parklink = "index.html"}
 
 HTMLResult.innerHTML = `
-<h2>You should go to ${park}! ${tagline}</h2> <br>
+<h4>You should go to ${park}! ${tagline}</h4>
 <p> If you want to learn more about ${park}, click <a href="${parkLink}">here</a> <p>
 `;
 
