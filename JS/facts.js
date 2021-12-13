@@ -36,6 +36,11 @@ The All-New Mickey Mouse Club was filmed in the park featuring stars such as Jus
 ak-
 Animal Kingdom is the newest of the Disney World parks.
 There was originally supposed to be a ride about unicorns and another about dragons in the parks, hence why you can see unicorns and dragons on some sinage around the park.
+On the tree of life, the icon of the park, there are more than 300 carvings.
+Expedition Everest is one of the most expensive roller coasters ever made, partly due to the nearly 200ft mountain that houses the coaster.
+The savannah on the Kilimanjaro Safari is bigger than the entire Magic Kingdom park.
+
+
 
 
 
