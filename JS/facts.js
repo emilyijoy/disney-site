@@ -6,6 +6,74 @@ function factFinder () {
     let fact;
     const HTMLResult = document.querySelector(".result");
 
+    if (pageTitle === "Magic Kingdom") {
+        if (numberGen === 1) {
+            fact = "Some of the art in Cinderella's Castle was made using 14 karat gold";
+        } else if (numberGen === 2) {
+            fact = "While there are many American flags in Main Street USA, only the one in the central flagpole is real. The rest miss some stars/stripes so they do not have to be taken down every night as the US Flag Code advises.";
+        } else if (numberGen === 3) {
+            fact = "Cast members (Disney employees) get around the park via a massive system of underground tunnels with exits in each land.";
+        } else if (numberGen === 4) {
+            fact = "There is a special suite inside Cinderella's Castle that you can only stay in via a competition held by Disney.";
+        } else if (numberGen === 5) {
+            fact = "There are bins every 30 steps in the park as Walt himself found that guests were willing to walk 30 steps before considering littering.";
+        } else if (numberGen === 6) {
+            fact = "While Magic Kingdom is massive (at 107 acres) it's smaller than the Animal Kingdom parking lot!";
+        } else if (numberGen === 7) {
+            fact = "Forced perspective is used a lot in the parks to make things appear larger than they are, one use of this is Beast's castle in Fantasyland.";
+        }
+    } else if (pageTitle === "Epcot") {
+       if (numberGen === 1) {
+            fact = "Some of the art in Cinderella's Castle was made using 14 karat gold";
+        } else if (numberGen === 2) {
+
+        } else if (numberGen === 3) {
+
+        } else if (numberGen === 4) {
+
+        } else if (numberGen === 5) {
+
+        } else if (numberGen === 6) {
+
+        } else if (numberGen === 7) {
+            
+        } ;
+    } else if (pageTitle === "Hollywood Studios") {
+        if (numberGen === 1) {
+            fact = "Some of the art in Cinderella's Castle was made using 14 karat gold";
+        } else if (numberGen === 2) {
+
+        } else if (numberGen === 3) {
+
+        } else if (numberGen === 4) {
+
+        } else if (numberGen === 5) {
+
+        } else if (numberGen === 6) {
+
+        } else if (numberGen === 7) {
+            
+        };
+    } else if (pageTitle === "Animal Kingdom") {
+        if (numberGen === 1) {
+            fact = "Some of the art in Cinderella's Castle was made using 14 karat gold";
+        } else if (numberGen === 2) {
+
+        } else if (numberGen === 3) {
+
+        } else if (numberGen === 4) {
+
+        } else if (numberGen === 5) {
+
+        } else if (numberGen === 6) {
+
+        } else if (numberGen === 7) {
+            
+        };
+    } else { fact = "no fact available soz";}
+
+    console.log(fact);
+
 }
 
 /* the facts
@@ -39,6 +107,8 @@ There was originally supposed to be a ride about unicorns and another about drag
 On the tree of life, the icon of the park, there are more than 300 carvings.
 Expedition Everest is one of the most expensive roller coasters ever made, partly due to the nearly 200ft mountain that houses the coaster.
 The savannah on the Kilimanjaro Safari is bigger than the entire Magic Kingdom park.
+Plastic straws arent allowed throughout the park to protect the animals, with guest recieving biodegradable paper straws with their drinks instead.
+The audio-animatronics on DINOSAUR were so big that their bases were built into the foundations of the building the ride is situated in.
 
 
 
