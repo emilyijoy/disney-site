@@ -43,12 +43,18 @@ background-image: radial-gradient(white, #ffcccc);
 
 .factFind {
 display: block;  
-width: 70%;
+width: 80%;
 margin: 0 auto; 
 text-align: center;  
 font-size: 20px;
     
 }
+
+.factFind .result {
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 
 #mainDays {
