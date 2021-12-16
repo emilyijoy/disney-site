@@ -27,7 +27,7 @@ if (numberGen === 1) {
 
 HTMLResult.innerHTML = `
 <h4>You should go to ${park}! ${tagline}</h4>
-<p> If you want to learn more about ${park}, click <a href="${parkLink}">here</a> <p>
+<p> If you want to learn more about ${park}, click <em><a href="${parkLink}">here</a></em> <p>
 `;
 
 console.log(park)

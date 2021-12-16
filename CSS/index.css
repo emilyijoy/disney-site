@@ -53,6 +53,8 @@ font-size: 20px;
 .factFind .result {
   width: 70%;
   margin: 0 auto;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 
@@ -102,7 +104,9 @@ font-size: 20px;
    color: #ffcccc;
  }
 
- 
+ #park-chooser, .result {
+   font-size: 17px;
+ }
 
 
  
@@ -119,8 +123,11 @@ font-size: 20px;
  article a {
    color: #454959;
  }
- article a:hover {
-   color: whitesmoke;
+ .articles a:hover {
+   color: rgb(212, 53, 204);
+   font-size: 18px;
+   
+
  }
 
 
@@ -417,6 +424,7 @@ img{
       font-size: 13px;
       width: 30%;
       padding: 2%;
+      margin: 0, auto;
     }
     .home-more h3, h2 {
       font-size: 15px;
