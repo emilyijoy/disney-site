@@ -32,7 +32,7 @@ text-size-adjust: auto;
 letter-spacing: normal;
 text-align: center;
 
-width: 14%;
+width: 15%;
 border: 15px solid white;
 border-radius: 29%;
 padding: 1%;
@@ -274,10 +274,8 @@ img{
     }
   
     .big-three p {
-      font-size: 13px;
-      font-weight: lighter;
-      
-      
+      font-size: 15px;
+      font-weight: normal;
     }
 
     .list {
@@ -296,6 +294,8 @@ img{
  } 
  .the-rest {
    text-align: left;
+   font-size: 18px;
+   font-weight: 500;
  }
  
  p a:hover {
@@ -437,5 +437,13 @@ img{
     section {
       margin-left: 8px;
       margin-right: 8px;
+    }
+
+    .the-rest {
+      font-size: 15px;
+    }
+
+    .big-three p {
+      font-size: 13px;
     }
   }
